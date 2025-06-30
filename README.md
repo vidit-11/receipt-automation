@@ -14,7 +14,7 @@ The system follows a serverless event-driven architecture:<br>
  * DynamoDB Storage: The Lambda function then parses Textract's response and writes the relevant data fields into a specified DynamoDB table.
  * SES Email Delivery: Finally, the Lambda function composes an email with the extracted key points and sends it using Amazon SES. <br><br>
 # Getting Started:
-To deploy and run this project, you will need an AWS account and familiarity with basic AWS services.<br>
+To deploy and run this project, you will need an AWS account and familiarity with basic AWS services.<br><br>
 Prerequisites:
  * AWS Account
  * AWS CLI configured with appropriate permissions
